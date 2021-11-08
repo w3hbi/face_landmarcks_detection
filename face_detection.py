@@ -45,7 +45,7 @@ if __name__ == '__main__':
                     mp_draw.draw_landmarks(
                         img,
                         landmarks,
-                        mp_face_mesh.FACE_CONNECTIONS,
+                        mp_face_mesh.FACEMESH_TESSELATION,
                         mp_draw.DrawingSpec((8, 0, 255), 1, 1),
                         mp_draw.DrawingSpec((255, 0, 8), 1, 1)
                     )
